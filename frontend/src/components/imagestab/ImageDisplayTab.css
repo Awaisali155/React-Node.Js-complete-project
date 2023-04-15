@@ -1,0 +1,17 @@
+.img-div{
+display: flex;
+gap: 50px;
+flex-wrap: wrap;
+padding: 50px;
+
+}
+.resize{
+    width:300px;
+}
+@media only screen and (max-width: 767px) {
+    .img-div {
+        display: flex;
+        gap: 150px;
+        flex-wrap: wrap;
+    }
+  }

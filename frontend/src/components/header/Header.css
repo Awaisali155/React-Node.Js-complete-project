@@ -1,0 +1,24 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color: #f2f2f2;
+  }
+  
+  .welcome-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-message {
+    font-size: 1.5rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  

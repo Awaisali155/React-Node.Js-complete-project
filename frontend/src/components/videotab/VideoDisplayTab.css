@@ -1,0 +1,41 @@
+.video-div{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.video{
+     height: 100%;
+     width: 100%;
+
+}
+.desc-div{
+width: 100%;
+height: 200px;
+overflow: auto;
+padding: 4px;
+}
+/* style={{ width: "100%", height: "200px", overflow: "auto", padding: "4px" }} */
+
+@media only screen and (max-width: 767px) {
+    .video-div {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        height: max-content;
+        flex-wrap: wrap;
+    }
+    .video{
+        height: 100%;
+        margin-left: 50px;
+        width: 270px;
+        margin: auto;
+   
+   }
+   .desc-div{
+    width: 260px;
+    height: 200px;
+    overflow: auto;
+    padding: 4px;
+    }
+  }
